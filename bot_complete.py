@@ -52,7 +52,7 @@ async def start(update, context):
     testoUscita2 = " "
     booleana = True 
     while(booleana == True):
-        time.sleep(3600)
+        time.sleep(--number of seconds to insert--)
         await all_functions(update, context, testoUscita2)
 
 
