@@ -61,7 +61,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 print("logger configurato")
 #Create an ApplicationBuilder instance and configure the bot token
 if __name__ == '__main__':
-    application = ApplicationBuilder().token("5855659161:AAFGvgcSh4XzP8s1iUC0uSEqDOqSW1rb0CQ").build()
+    application = ApplicationBuilder().token("--token--").build()
 print("istanza con token creata")
    
 #Add a CommandHandler to manage the /start command
